@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "py-van-emde-boas"
+version = "1.0.0"
+description = "van Emde Boas tree for O(log log U) predecessor queries"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Mahmoud ElNemer", email = "sultanelnemer@gmail.com"}]
+keywords = ["python", "van-emde-boas", "data-structures", "algorithms", "priority-queue"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ElNeMeR70/py-van-emde-boas"
+Repository = "https://github.com/ElNeMeR70/py-van-emde-boas"
